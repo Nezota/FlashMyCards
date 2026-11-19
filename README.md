@@ -10,6 +10,7 @@ These decks can feature images, audio, and text although the only supported file
 To import a deck a user must create a folder that contains all the media necessary for that deck.
 That folder also must include a .csv file that describes the contents of the deck to the game.
 Below are the headings required for the .csv paste this into Excel or Google Sheets to edit and create the deck:
+
 Main Question Type,Main Question,Answer 1 Type,Answer 1,Answer 2 Type,Answer 2,Answer 3 Type,Answer 3,Hint 1 Type,Hint 1,Hint 2 Type,Hint 2,Hint 3 Type,Hint 3
 
 Currently Supported Question Types
