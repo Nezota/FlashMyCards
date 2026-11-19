@@ -1,6 +1,8 @@
 # FlashMyCards
 A 2D clicker-style flash card game built in Rust using the Macroquad game library
 
+**The Packaged Game can be found under Releases**
+
 This project was coded using Gemini and was a sort of experiment to see what the Rust coding language was and how well AI could even code.
 The main goal of this game is to provide more engaging ways to study flash cards as opposed to just typing or selecting answers.
 
