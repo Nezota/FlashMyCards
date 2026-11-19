@@ -4,8 +4,32 @@ A 2D clicker-style flash card game built in Rust using Macroquad
 This project was coding using Gemini and was sort of an experiment to see what the Rust coding language was and how well AI could even code.
 The main goal of this game is to provide more engaging ways to study flash cards as opposed to just typing or selecting answers.
 
-<img width="1919" height="1007" alt="Screenshot 2026-11-18 200046" src="https://github.com/user-attachments/assets/18f8291f-a23f-40b1-b7a4-dd108ccf7d94" />
-<img width="1919" height="1009" alt="Screenshot 2026-11-18 200150" src="https://github.com/user-attachments/assets/c1646561-9d03-45b6-9e08-8b5b7af2d9c5" />
-<img width="1918" height="1009" alt="Screenshot 2026-11-18 200133" src="https://github.com/user-attachments/assets/327a4bf8-bc0a-47e8-a97c-4adb55164007" />
-<img width="1918" height="1009" alt="Screenshot 2026-11-18 200115" src="https://github.com/user-attachments/assets/2a2cacc1-e8ce-4d11-9922-64fd967c1a81" />
-<img width="1919" height="1008" alt="Screenshot 2026-11-18 200100" src="https://github.com/user-attachments/assets/f372ad08-f621-40ca-90ca-5099a6c24b4b" />
+The game supports the creation of custom Decks allow users to create their own sets of flash cards
+These decks can feature images, audio, and text although the only supported files are .png, .wav, and .csv
+
+To import a deck a user must create a folder to contain all the media necessary for that deck
+That folder also must include a .csv file that describes the contents of the deck to the game
+Below are the headings required for the .csv paste this into Excel or Google Sheets to edit and create the deck
+Main Question Type,Main Question,Answer 1 Type,Answer 1,Answer 2 Type,Answer 2,Answer 3 Type,Answer 3,Hint 1 Type,Hint 1,Hint 2 Type,Hint 2,Hint 3 Type,Hint 3
+
+Currently Supported Question Types
+"Audio"
+"Image"
+"Text"
+
+Examples of what a completed deck looks like can be found inside the "decks" folder of the FlashMyCards_V1.zip
+
+## Title Screen
+<img width="1919" height="1007" alt="FMC TitleScreen" src="https://github.com/user-attachments/assets/5ab885bd-36c4-499f-ac6c-80714f7a3bb8" />
+
+## Game Mode Selection
+<img width="1919" height="1008" alt="FMC Gamemode Selection" src="https://github.com/user-attachments/assets/cb0592f3-88f3-4c0c-bb13-7b7299da4360" />
+
+## Float Mode
+<img width="1918" height="1009" alt="FMC Float Mode" src="https://github.com/user-attachments/assets/2f4b4aff-8c40-41df-9ba9-de531cd53e0a" />
+
+## Tile Mode
+<img width="1918" height="1009" alt="FMC Tile Mode" src="https://github.com/user-attachments/assets/21396e6f-17ff-4bfd-b24d-51b244a07ebc" />
+
+## Drop Mode
+<img width="1919" height="1009" alt="FMC Drop Mode" src="https://github.com/user-attachments/assets/3094368d-4761-4376-b33a-d1874b57190e" />
